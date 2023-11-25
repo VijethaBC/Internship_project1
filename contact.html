@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Key Chain Shop</title>
+    <style>
+        /* Add any additional styles specific to the contact page here */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Key Chain Shop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Have a question or need assistance? Reach out to us using the form below.</p>
+
+        <form action="process_form.php" method="post">
+            <!-- Replace "process_form.php" with the actual processing script -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Key Chain Shop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // You can add any additional scripts specific to the contact page here
+    </script>
+</body>
+
+</html>
